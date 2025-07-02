@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/2amigos/yii2-datepicker-widget).
+We accept contributions via Pull Requests on [Github](https://github.com/neoacevedo/yii2-datepicker-widget).
 
 
 ## Pull Requests

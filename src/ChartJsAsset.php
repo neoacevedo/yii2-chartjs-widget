@@ -7,20 +7,20 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-namespace dosamigos\chartjs;
+namespace neoacevedo\chartjs;
 
 use yii\web\AssetBundle;
 
 /**
- *
- * ChartPluginAsset
+ * ChartJsAsset is the asset bundle for the ChartJs library.
+ * It includes the ChartJs JavaScript file and its dependencies.
  */
 class ChartJsAsset extends AssetBundle
 {
-    public $sourcePath = null;
+    public $sourcePath = '@npm/chart.js/dist';
 
     public $js = [
-        'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js'
+        'chart.umd.min.js'
     ];
 
     public $depends = [

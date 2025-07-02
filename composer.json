@@ -1,9 +1,8 @@
 {
-    "name": "2amigos/yii2-chartjs-widget",
+    "name": "neoacevedo/yii2-chartjs-widget",
     "description": "ChartJs widget for Yii2.",
     "type": "yii2-extension",
     "keywords": [
-        "2amigos",
         "yii",
         "yii2",
         "yii 2",
@@ -19,33 +18,46 @@
             "email": "hola@2amigos.us",
             "homepage": "http://2amigos.us",
             "role": "Developer"
+        },
+        {
+            "name": "Néstor Acevedo",
+            "email": "nestor.acevedo.romero@gmail.com"
+        }
+    ],
+    "funding": [
+        {
+            "type": "other",
+            "url": "https://ko-fi.com/neoacevedo"
         }
     ],
     "support": {
-        "issues": "https://github.com/2amigos/yii2-chartjs-widget/issues",
-        "source": "https://github.com/2amigos/yii2-chartjs-widget"
+        "issues": "https://github.com/neoacevedo/yii2-chartjs-widget/issues",
+        "source": "https://github.com/neoacevedo/yii2-chartjs-widget"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.3",
-        "yiisoft/yii2": "^2.0",
-        "nnnick/chartjs": "^2.9"
+        "php": ">=8.2",
+        "yiisoft/yii2": "~2.0.51",
+        "npm-asset/chart.js": "^4.5"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
         "friendsofphp/php-cs-fixer": "^2.16",
-        "phpunit/phpunit": "^8.5"
+        "phpunit/phpunit": "^10.5"
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\chartjs\\": "src"
+            "neoacevedo\\chartjs\\": "src"
         }
     },
     "extra": {
-        "installer-types": ["bower-asset", "npm-asset"],
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "25.7-dev"
         }
     },
     "repositories": [

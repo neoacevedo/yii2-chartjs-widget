@@ -7,7 +7,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-namespace dosamigos\chartjs;
+namespace neoacevedo\chartjs;
 
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
@@ -16,8 +16,12 @@ use yii\helpers\Json;
 use yii\web\JsExpression;
 
 /**
- *
- * Chart renders a canvas ChartJs plugin widget.
+ * ChartJs is a widget that integrates the ChartJs library into Yii2 applications.
+ * This widget renders a canvas element that can be used to display various types of charts
+ * such as line, bar, radar, polar area, pie, and doughnut charts. 
+ * 
+ * It allows you to configure the chart's appearance and behavior
+ * through the `clientOptions` and `data` properties, and supports plugins for custom event handling.
  */
 class ChartJs extends Widget
 {

@@ -1,6 +1,8 @@
 ChartJs Widget
 ==============
 
+> **Este paquete es un fork de [2amigos/yii2-chartjs-widget](https://github.com/2amigos/yii2-chartjs-widget), el cual se encuentra en modo de solo lectura. Este fork fue creado para mantener vivo el paquete y continuar su mantenimiento.**
+
 [![Latest Version](https://img.shields.io/github/tag/2amigos/yii2-chartjs-widget.svg?style=flat-square&label=release)](https://github.com/2amigos/yii2-chartjs-widget/tags)
 [![Software License](https://img.shields.io/badge/license-BSD-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/2amigos/yii2-chartjs-widget/master.svg?style=flat-square)](https://travis-ci.org/2amigos/yii2-chartjs-widget)
@@ -9,7 +11,7 @@ ChartJs Widget
 [![Total Downloads](https://poser.pugx.org/2amigos/yii2-chartjs-widget/downloads)](https://packagist.org/packages/2amigos/yii2-chartjs-widget) 
 [![StyleCI](https://styleci.io/repos/16515084/shield?branch=master)](https://styleci.io/repos/16515084)
 
-Renders a [ChartJs plugin](http://www.chartjs.org/docs/) widget
+Renders a [ChartJs plugin](http://www.chartjs.org/docs/) widget.
 
 Installation
 ------------
@@ -21,12 +23,12 @@ set.
 Either run
 
 ```
-composer require 2amigos/yii2-chartjs-widget:~2.0
+composer require neoacevedo/yii2-chartjs-widget:dev-main
 ```
 or add
 
 ```json
-"2amigos/yii2-chartjs-widget" : "~2.0"
+"neoacevedo/yii2-chartjs-widget" : "dev-main"
 ```
 
 to the require section of your application's `composer.json` file.
